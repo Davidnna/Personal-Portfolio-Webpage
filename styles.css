@@ -10,6 +10,7 @@ html, body {
   scroll-behavior: smooth;
   transition: scroll 2s;
   line-height: 1.6;
+  background-color: #f4f4f4;
 }
 
 /* Navbar */
@@ -66,8 +67,9 @@ html, body {
 
 /* Projects Section */
 #projects {
-  padding: 10vh 30vh;
-  background-color: #f4f4f4;
+  padding: 10vh 0;
+  width: 75%;
+  margin: auto;
   text-align: center;
 }
 
@@ -80,7 +82,7 @@ html, body {
 .project-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 5vh;
+  gap: 6vh;
   margin-bottom: 10vh;
 }
 
