@@ -121,7 +121,6 @@ html, body {
 
 /* Contact Section */
 #contact {
-  height: 100vh;
   background: linear-gradient(to right, #2c3e50, #312b2b);
   color: white;
   padding: 10vh;
@@ -136,6 +135,7 @@ html, body {
 .contact-info {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 15vh;
   margin-top: 20px;
 }
