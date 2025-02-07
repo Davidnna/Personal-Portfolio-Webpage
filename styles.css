@@ -8,7 +8,6 @@
 html, body {
   font-family: 'Arial', sans-serif;
   scroll-behavior: smooth;
-  transition: scroll 2s;
   line-height: 1.6;
   background-color: #f4f4f4;
 }
@@ -30,7 +29,7 @@ html, body {
 
 #navbar ul {
   display: flex;
-  gap: 10vh;
+  gap: 10vw;
   list-style: none;
 }
 
@@ -81,7 +80,7 @@ html, body {
 
 .project-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 6vh;
   margin-bottom: 10vh;
 }
@@ -130,6 +129,8 @@ html, body {
 #contact h2 {
     font-size: 2rem;
     padding: 3vh;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .contact-info {
@@ -158,18 +159,25 @@ html, body {
 /* Footer */
 footer {
   background: #222;
-  height: 15vh;
+  height: 10vh;
   color: #ccc;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .contact-info {
     text-align: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .project-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 }
