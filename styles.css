@@ -15,7 +15,6 @@ html, body {
 /* Navbar */
 #navbar {
   background-color: #333;
-  color: white;
   position: fixed;
   top: 0;
   width: 100%;
@@ -23,8 +22,6 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  z-index: 1000;
 }
 
 #navbar ul {
@@ -74,7 +71,7 @@ html, body {
 
 #projects h2 {
   margin-bottom: 30px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #333;
 }
 
@@ -89,11 +86,11 @@ html, body {
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
 }
 
 .project-tile:hover {
   transform: scale(1.2);
+  transition: transform 0.3s;
 }
 
 .project-tile img {
@@ -115,22 +112,23 @@ html, body {
 #profile-link {
     font-size: 1.5rem;
     text-decoration: none;
-    padding: 2vh 5vh;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Contact Section */
 #contact {
   background: linear-gradient(to right, #2c3e50, #312b2b);
   color: white;
-  padding: 10vh;
+  padding: 10vh 10vw;
   text-align: center;
 }
 
 #contact h2 {
     font-size: 2rem;
     padding: 3vh;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 .contact-info {
@@ -159,7 +157,6 @@ html, body {
 /* Footer */
 footer {
   background: #222;
-  height: 10vh;
   color: #ccc;
   display: flex;
   flex-direction: column;
@@ -167,17 +164,26 @@ footer {
   align-items: center;
   font-size: 0.9rem;
   text-align: center;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .contact-info {
-    text-align: center;
-  }
+  padding: 1rem;
 }
 
 @media (max-width: 350px) {
   .project-container {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+@media (max-width: 278px) {
+  .welcome-content h1 + h1 {
+    font-size: 2.5rem;
+    padding-bottom: 2vh;
+  }
+
+  #navbar ul {
+    gap: 2.5vw;
+  }
+
+  #navbar a {
+    text-decoration: underline;
   }
 }
