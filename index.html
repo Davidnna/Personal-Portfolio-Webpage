@@ -3,153 +3,222 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/jpg" href="favicon.jpg">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/png" href="images/personal-portfolio.png">
+        <!-- <link rel="icon" type="image/png" href="https://i.postimg.cc/FHcvHCwJ/personal-portfolio.png"> -->
+        <link rel="stylesheet" href="styles/styles.css">
         <title>My Personal Portfolio</title>
     </head>
     <body>
-        <!-- Navbar -->
-        <nav id="navbar">
-            <ul>
-                <li><a href="#welcome-section">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <!-- Header -->
+        <header>
+            <!-- Navbar -->
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#welcome-section">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <!-- Welcome Section -->
-        <section id="welcome-section">
-            <div class="welcome-content">
-                <h1>Hello, I'm David</h1>
-                <h1>Welcome to My Portfolio</h1>
-                <p>I'm a passionate web developer crafting interactive and modern web experiences.</p>
-            </div>
-        </section>
+        <!-- Main -->
+        <main>
+            <!-- Welcome Section -->
+            <section id="welcome-section">
+                <div class="welcome-content">
+                    <hgroup>
+                        <h1>Hello, I'm David</h1>
+                        <h1>Welcome to My Portfolio</h1>
+                    </hgroup>
+                    <p>I'm a passionate web developer crafting interactive and modern web experiences.</p>
+                </div>
+            </section>
 
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2>My Projects</h2>
-            <h2>These are some of my work</h2>
-            <div class="project-container">
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/zxONpMZ" target="_blank" rel="noopener noreferrer">
-                        <img src="technical-documentation.jpeg" alt="Project 1">
-                        <h3>Project One</h3>
-                        <p>A documentation website for learning python.</p>
-                    </a>
+            <!-- Projects Section -->
+            <section id="projects">
+                <hgroup>
+                    <h2>My Projects</h2>
+                    <h2>These are some of my work</h2>
+                </hgroup>
+                <!-- Projects -->
+                <div class="project-container">
+                    <!-- Python Documentation -->
+                    <div class="project-tile">
+                        <a href="https://codepen.io/David-Nnadozie/full/zxONpMZ" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/technical-documentation.jpeg" alt="Project 1">
+                                <!-- <img src="https://i.postimg.cc/DwVVHdmf/technical-documentation.jpg" alt="Project 1"> -->
+                            </figure>
+                            <h3>Project One</h3>
+                            <p>A documentation website for learning python.</p>
+                        </a>
+                    </div>
+                    <!-- Basketball Scoreboard -->
+                    <div class="project-tile">
+                        <a href="https://codepen.io/David-Nnadozie/full/mybRpqK" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/basketball-scoreboard.jpeg" alt="Project 2">
+                                <!-- <img src="https://i.postimg.cc/DfjnjXqm/basketball-scoreboard.jpg" alt="Project 2"> -->
+                            </figure>
+                            <h3>Project Two</h3>
+                            <p>Interactive basketball scoreboard application with real-time scoring.</p>
+                        </a>
+                    </div>
+                    <!-- Product Landing Page -->
+                    <div class="project-tile">
+                        <a href="https://codepen.io/David-Nnadozie/full/emOgybd" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/product-landing-page.jpeg" alt="Project 3">
+                                <!-- <img src="https://i.postimg.cc/hvfWW29v/product-landing-page.jpg" alt="Project 3"> -->
+                            </figure>
+                            <h3>Project Three</h3>
+                            <p>Interactive and business inclined product landing page.</p>
+                        </a>
+                    </div>
+                    <!-- To-Do List -->
+                    <div class="project-tile">
+                        <a href="https://codepen.io/David-Nnadozie/full/RwXzoMK" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/todo-list.jpeg" alt="Project 4">
+                                <!-- <img src="https://i.postimg.cc/h45RbqBd/todo-list.jpg" alt="Project 4"> -->
+                            </figure>
+                            <h3>Project Four</h3>
+                            <p>A to-do list app for task management.</p>
+                        </a>
+                    </div>
+                    <!-- Portfolio -->
+                    <div class="project-tile">
+                        <a href="https://codepen.io/David-Nnadozie/full/ogvBpyo" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/portfolio.jpeg" alt="Project 5">
+                                <!-- <img src="https://i.postimg.cc/W4vvF6PY/portfolio.jpg" alt="Project 5"> -->
+                            </figure>
+                            <h3>Project Five</h3>
+                            <p>Portfolio showcasing art and photography.</p>
+                        </a>
+                    </div>
+                    <!-- Calculator -->
+                    <div class="project-tile">
+                        <a href="https://codepen.io/David-Nnadozie/full/xxvaoZx" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/simple-calculator.jpeg" alt="Project 6">
+                                <!-- <img src="https://i.postimg.cc/NFShgR44/simple-calculator.jpg" alt="Project 6"> -->
+                            </figure>
+                            <h3>Project Six</h3>
+                            <p>Simple JavaScript-based Calculator.</p>
+                        </a>
+                    </div>
+                    <!-- Birthday Site -->
+                    <div class="project-tile small">
+                        <a href="https://codepen.io/David-Nnadozie/full/OPLKmLz" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/birthday-gift-site.jpeg" alt="Project 7">
+                                <!-- <img src="https://i.postimg.cc/pXmxgLZC/birthday-gift-site.jpg" alt="Project 7"> -->
+                            </figure>
+                            <h3>Project Seven</h3>
+                            <p>A Birthday site to wish someone well.</p>
+                        </a>
+                    </div>
+                    <!-- Blackjack Game -->
+                    <div class="project-tile small">
+                        <a href="https://codepen.io/David-Nnadozie/full/ByBXRBY" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/blackjack-game.jpeg" alt="Project 8">
+                                <!-- <img src="https://i.postimg.cc/k5vdx6JJ/blackjack-game.jpg" alt="Project 8"> -->
+                            </figure>
+                            <h3>Project Eight</h3>
+                            <p>Interactive blackjack game application.</p>
+                        </a>
+                    </div>
+                    <!-- Counter App -->
+                    <div class="project-tile small">
+                        <a href="https://codepen.io/David-Nnadozie/full/JoPgJjr" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/counter-app.jpeg" alt="Project 9">
+                                <!-- <img src="https://i.postimg.cc/dtgvvcNY/counter-app.jpg" alt="Project 9"> -->
+                            </figure>
+                            <h3>Project Nine</h3>
+                            <p>A Counter App to keep count always.</p>
+                        </a>
+                    </div>
+                    <!-- Hometown -->
+                    <div class="project-tile small">
+                        <a href="https://codepen.io/David-Nnadozie/full/raBXwNW" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/hometown-homepage.jpeg" alt="Project 10">
+                                <!-- <img src="https://i.postimg.cc/d1Qcns38/hometown-homepage.jpg" alt="Project 10"> -->
+                            </figure>
+                            <h3>Project Ten</h3>
+                            <p>A Hometown Webpage telling About Nigeria.</p>
+                        </a>
+                    </div>
+                    <!-- Password Generator -->
+                    <div class="project-tile small">
+                        <a href="https://codepen.io/David-Nnadozie/full/zxOgzYZ" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/ransom-password-generator.jpeg" alt="Project 11">
+                                <!-- <img src="https://i.postimg.cc/hjCW5kQN/ransom-password-generator.jpg" alt="Project 11"> -->
+                            </figure>
+                            <h3>Project Eleven</h3>
+                            <p>A Random Password Generator for easy Passwords.</p>
+                        </a>
+                    </div>
+                    <!-- Unit Conversion -->
+                    <div class="project-tile small">
+                        <a href="https://codepen.io/David-Nnadozie/full/azoewbw" target="_blank" rel="noopener noreferrer">
+                            <figure>
+                                <img src="images/unit-conversion.jpeg" alt="Project 12">
+                                <!-- <img src="https://i.postimg.cc/L6gKx090/unit-conversion.jpg" alt="Project 12"> -->
+                            </figure>
+                            <h3>Project Twelve</h3>
+                            <p>A Simple Way to Convert Numerous Units.</p>
+                        </a>
+                    </div>
                 </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/mybRpqK" target="_blank" rel="noopener noreferrer">
-                        <img src="basketball-scoreboard.jpeg" alt="Project 2">
-                        <h3>Project Two</h3>
-                        <p>Interactive basketball scoreboard application with real-time scoring.</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/emOgybd" target="_blank" rel="noopener noreferrer">
-                        <img src="product-landing-page.jpeg" alt="Project 3">
-                        <h3>Project Three</h3>
-                        <p>Interactive and business inclined product landing page.</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/RwXzoMK" target="_blank" rel="noopener noreferrer">
-                        <img src="todo-list.jpeg" alt="Project 4">
-                        <h3>Project Four</h3>
-                        <p>A to-do list app for task management.</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/ogvBpyo" target="_blank" rel="noopener noreferrer">
-                        <img src="portfolio.jpeg" alt="Project 5">
-                        <h3>Project Five</h3>
-                        <p>Portfolio showcasing art and photography.</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/xxvaoZx" target="_blank" rel="noopener noreferrer">
-                        <img src="simple-calculator.jpeg" alt="Project 6">
-                        <h3>Project Six</h3>
-                        <p>Simple JavaScript-based Calculator.</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/OPLKmLz" target="_blank" rel="noopener noreferrer">
-                        <img src="birthday-gift-site.jpeg" alt="Project 7">
-                        <h3>Project Seven</h3>
-                        <p>A Birthday site to wish someone well.</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/ByBXRBY" target="_blank" rel="noopener noreferrer">
-                        <img src="blackjack-game.jpeg" alt="Project 8">
-                        <h3>Project Eight</h3>
-                        <p>Interactive blackjack game application.</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/JoPgJjr" target="_blank" rel="noopener noreferrer">
-                        <img src="counter-app.jpeg" alt="Project 9">
-                        <h3>Project Nine</h3>
-                        <p>A Counter App to keep count always.</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/raBXwNW" target="_blank" rel="noopener noreferrer">
-                        <img src="hometown-homepage.jpeg" alt="Project 10">
-                        <h3>Project Ten</h3>
-                        <p>A Hometown Webpage telling About Nigeria.</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/zxOgzYZ" target="_blank" rel="noopener noreferrer">
-                        <img src="ransom-password-generator.jpeg" alt="Project 11">
-                        <h3>Project Eleven</h3>
-                        <p>A Random Password Generator for easy Passwords.</p>
-                    </a>
-                </div>
-                <div class="project-tile">
-                    <a href="https://codepen.io/David-Nnadozie/full/azoewbw" target="_blank" rel="noopener noreferrer">
-                        <img src="unit-conversion.jpeg" alt="Project 12">
-                        <h3>Project Twelve</h3>
-                        <p>A Simple Way to Convert Numerous Units.</p>
-                    </a>
-                </div>
-            </div>
-            <a href="https://codepen.io/David-Nnadozie" id="profile-link" target="_blank" rel="noopener noreferrer">View More</a>
-        </section>
+                <!-- Actions -->
+                <button type="button" id="shows" onclick="show()">Show More</button>
+                <a href="https://codepen.io/David-Nnadozie" id="profile-link" target="_blank" rel="noopener noreferrer">View More</a>
+            </section>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Get In Touch</h2>
-            <h2>Let's work together...</h2>
-            <p>I'd love to hear from you! Whether you have a project in mind or just want to say hello, feel free to contact me.</p>
-            <h2>Contact Me</h2>
-            <p>Let's connect and create something amazing together!</p>
-            <div class="contact-info">
-                <div>
-                    <h3>Email</h3>
-                    <p><a href="mailto:davedozie1@gmail.com">davedozie1@gmail.com</a></p>
+            <!-- Contact Section -->
+            <section id="contact">
+                <hgroup>
+                    <h2>Get In Touch</h2>
+                    <h2>Let's work together...</h2>
+                </hgroup>
+                <p>I'd love to hear from you! Whether you have a project in mind or just want to say hello, feel free to contact me.</p>
+                <h2>Contact Me</h2>
+                <p>Let's connect and create something amazing together!</p>
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <!-- Email -->
+                    <div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:davedozie1@gmail.com">davedozie1@gmail.com</a></p>
+                    </div>
+                    <!-- Phone -->
+                    <div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+2347042671984">+234 704-267-1984</a></p>
+                    </div>
+                    <!-- Social Media -->
+                    <div>
+                        <h3>Social Media</h3>
+                        <ul>
+                            <li><a href="https://github.com/Davidnna" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                            <li><a href="https://x.com/DAVIDNNADO84718" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                            <li><a href="https://www.linkedin.com/in/david-nnadozie" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <h3>Phone</h3>
-                    <p><a href="tel:+2347042671984">+234 704-267-1984</a></p>
-                </div>
-                <div>
-                    <h3>Social Media</h3>
-                    <ul>
-                        <li><a href="https://github.com/Davidnna" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                        <li><a href="https://x.com/DAVIDNNADO84718" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                        <li><a href="https://www.linkedin.com/in/david-nnadozie" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+            </section>
+        </main>
 
         <!-- Footer -->
         <footer>
             <p>Designed and Developed with ❤️ by David | © 2024</p>
             <p>All rights reserved</p>
         </footer>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
